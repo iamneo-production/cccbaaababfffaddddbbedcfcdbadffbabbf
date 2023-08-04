@@ -1,13 +1,16 @@
-import Stopwatch from './components/Stopwatch/Stopwatch';
+import React from 'react';
+
+
 import './App.css';
+import Stopwatch from './components/Stopwatch/Stopwatch';
 
 function App() {
   return (
-    <div className ="container">
-    <div className="App">
+    <div>
       <Stopwatch />
     </div>
-    </div>
+    
+
   );
 }
 
